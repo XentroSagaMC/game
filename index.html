@@ -4,25 +4,56 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 		<link rel="stylesheet" href="http://www.w3schools.com//lib/w3-theme-light-blue.css">
-		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link rel="shortcut icon" href="/images/favicon.ico" />
-		<body id="myPage">
-		<ul class="w3-navbar w3-card-2 w3-large w3-light-blue" >
-		  <li><a href="#" class="w3-green  w3-hover-green" >MCSaga Network</a></li>
-		  <li><a href="#" class="w3-border-blue w3-hover-blue">Home</a></li>
-          <li><a href=http://forum.mcsaga.com class="w3-border-blue w3-hover-blue">Forums</a></li>
-                <li><a href="news.html" class="w3-border-blue w3-hover-blue">News</a></li>
-                <li><a href="about.html" class="w3-border-blue w3-hover-blue">About</a></li>
-                <li><a href=http://store.mcsaga.com class="w3-border-blue w3-hover-blue">Donate</a></li>
-                <li class="w3-dropdown-hover"><a href="#" w3-border-pale-blue w3-hover-blue>Others<i class="fa fa-caret-down"></i></a>
-                   	<div class="w3-dropdown-content w3-white w3-card-4">
-     					<a href="downloads.html">Downloads</a>
-    					<a href=http://xentrosagamc.uk.to>XentroSagaMC's Website</a>
-						<a href=http://youtube.com>XentroSagaMC's Youtube Channel</a>
-    				</div>
-  				</li>
-			</ul>
-			<img src="images/banner.png" alt="banner.png" style="width:100%">
+		<!--Import Google Icon Font-->
+      	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      	<!--Import materialize.css-->
+      	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      	<!--Let browser know website is optimized for mobile-->
+      	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <head>
+        	<!--Import jQuery before materialize.js-->
+      		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+     		<script type="text/javascript" src="js/materialize.min.js"></script>
+            <script>$(document).ready(function(){
+			$(".dropdown-button").dropdown();
+   			$(".button-collapse").sideNav();
+
+			});</script>
+      	    <nav>
+   				<div class="nav-wrapper w3-light-blue">
+                    <a class="brand-logo w3-blue">
+                    <img href="#!" src="images/logo.png" alt="logo" height="38" width="38"><font size="6" class="w3-text-light-green">MC</font><font size="6" class="w3-text-black">Saga</font>
+                    </a>
+     				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+     				<ul class="right hide-on-med-and-down">
+     		   			<li><a href=http://forum.mcsaga.com class="w3-hover-blue">Forums</a></li>
+     			   		<li><a href="news.html" class="w3-hover-blue">News</a></li>
+      				 	<li><a href="about.html"class="w3-hover-blue">About Us!</a></li>
+      				 	<li><a href=htttp://store.mcsaga.com class="w3-hover-blue">Donations</a></li>
+      			  		<li class="w3-dropdown-hover" class="w3-hover-blue"><a >Others<i class="material-icons right">arrow_drop_down</i></a><div class="w3-dropdown-content w3-gray w3-card-4">
+      						<a href="#" class="w3-hover-blue w3-text-black">Downloads</a>
+      						<a href="#" class="w3-hover-blue w3-text-black">How To Contact Us?</a>
+      						<a href="#" class="w3-hover-blue w3-text-black">Open Help Ticket</a>
+    					</div></li>
+					</ul>
+    				<ul class="side-nav" id="mobile-demo">
+       		 			<li><a href="sass.html">Sass</a></li>
+       		 			<li><a href="badges.html">Components</a></li>
+       			 		<li><a href="collapsible.html">Javascript</a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+     		 		</ul>
+  		  </div>
+  		</nav>
+          
+        </head>
+		<body id="myPage" class="w3-top">
+        
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+				<img src="images/banner.png" alt="banner.png" style="width:100%">
             <div>
             <script type=’text/javascript’ src=’http://myblogname.tumblr.com/js’></script>
 			</div>
