@@ -1,45 +1,40 @@
 <!DOCTYPE html>
-	<html>
+	<html lang="en-US">
 		<title>MCSaga Server</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!--W3Schools CSS-->
+        
 		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 		<link rel="stylesheet" href="http://www.w3schools.com//lib/w3-theme-light-blue.css">
 		<link rel="shortcut icon" href="/images/favicon.ico" />
-		<!--Import Google Icon Font-->
+        <!--Materialize CSS-->
+
       	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      	<!--Import materialize.css-->
-      	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-      	<!--Let browser know website is optimized for mobile-->
-      	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+		<!--Template for MC-->
+
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
-        <style>
-		body { 
-    background-image: url('/img/bg.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-		</style>
         <head class="w3-bottombar w3-border-blue">
         	<!--Import jQuery before materialize.js-->
       		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-     		<script type="text/javascript" src="js/materialize.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
             <script>$(document).ready(function(){
 			$(".dropdown-button").dropdown();
    			$(".button-collapse").sideNav();
-
-			});</script>
+			});
+            </script>
       	    <nav>
    				<div class="nav-wrapper w3-light-blue">
-                    <a class="brand-logo">
-                    <img href="#!" src="images/logo.png" alt="logo" height="38" width="38"><font size="6" class="w3-text-light-green">MC</font><font size="6" class="w3-text-black">Saga</font>
+                	<a  href="#!" class="brand-logo">
+					<img src="images/logo.png" height="38" width="38"><font size="6" class="w3-text-light-green">MC</font><font size="6" class="w3-text-black">Saga</font>
                     </a>
      				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
      				<ul class="right hide-on-med-and-down">
@@ -47,36 +42,43 @@
      			   		<li><a href="news.html" class="w3-hover-blue">News</a></li>
       				 	<li><a href="about.html"class="w3-hover-blue">About Us!</a></li>
       				 	<li><a href=htttp://store.mcsaga.com class="w3-hover-blue">Donations</a></li>
-      			  		<li class="w3-dropdown-hover" class="w3-hover-blue"><a >Others<i class="material-icons right">arrow_drop_down</i></a><div class="w3-dropdown-content w3-gray w3-card-4">
-      						<a href="#" class="w3-hover-blue w3-text-black">Downloads</a>
-      						<a href="#" class="w3-hover-blue w3-text-black">How To Contact Us?</a>
-      						<a href="#" class="w3-hover-blue w3-text-black">Open Help Ticket</a>
-    					</div></li>
-                        <li><a href="">       </a></li>
+      			  		<li class="w3-dropdown-hover w3-hover-text-white w3-hover-blue"><a >Others<i class="material-icons right">arrow_drop_down</i></a>
+                        	<div class="w3-dropdown-content w3-gray w3-card-4">
+      							<a href="#" class="w3-hover-blue w3-text-black">Downloads</a>
+      							<a href="#" class="w3-hover-blue w3-text-black">How To Contact Us?</a>
+      							<a href="#" class="w3-hover-blue w3-text-black">Open Help Ticket</a>
+    						</div>
+                        </li>
+                        <li>
+                        	<a href=""</a>
+                        </li>
 					</ul>
-    				<ul class="side-nav" id="mobile-demo">
+					<ul class="side-nav" id="mobile-demo">
      		   			<li><a href=http://forum.mcsaga.com class="w3-hover-blue">Forums</a></li>
      			   		<li><a href="news.html" class="w3-hover-blue">News</a></li>
       				 	<li><a href="about.html"class="w3-hover-blue">About Us!</a></li>
       				 	<li><a href=htttp://store.mcsaga.com class="w3-hover-blue">Donations</a></li>
-      			  		<li class="w3-dropdown-hover" ><a class="w3-hover-blue">Others<i class="material-icons right">arrow_drop_down</i></a><div class="w3-dropdown-content w3-gray w3-card-4">
-      						<a href="#" class="w3-hover-blue w3-text-black">Downloads</a>
-      						<a href="#" class="w3-hover-blue w3-text-black">Contact Us!</a>
-      						<a href="#" class="w3-hover-blue w3-text-black">Open Help Ticket</a>
-    					</div></li>
+      			  		<li class="w3-dropdown-hover  w3-hover-blue w3-hover-text-white" ><a>Others<i class="material-icons right">arrow_drop_down</i></a>
+                        	<div class="w3-dropdown-content w3-gray w3-card-4">
+      							<a href="#" class="w3-hover-blue w3-text-black">Downloads</a>
+      							<a href="#" class="w3-hover-blue w3-text-black">Contact Us!</a>
+      							<a href="#" class="w3-hover-blue w3-text-black">Open Help Ticket</a>
+    						</div>
+                    	</li>
      		 		</ul>
-  		  </div>
-  		</nav>
-          <img src="images/banner.png" alt="banner.jpg" style="width:100%">
+				</div>
+			</nav>
+            
+			<img src="images/banner.png" alt="banner.jpg" style="width:100%">
         </head>
 		<body id="myPage" class="w3-pale-blue"> 
-                    <div class="w3-container text-center w3-blue">
-                    <p></p>
-                	<h1 class="uppercase text-center">Server Features</h1>  
-                    </div>  
-		   <section class="pb100 pb-xs-50 w3-bottombar w3-border-blue">
+			<div class="w3-container text-center w3-blue">
+        	    <p></p>
+    	        <h1 class="uppercase text-center">Server Features</h1>  
+            </div>  
+			<section class="pb100 pb-xs-50 w3-bottombar w3-border-blue">
 		        <div class="container">
-		            <div class="row">
+		        	<div class="row">
 		                <div class="col-sm-4">
 		                    <div class="feature feature-2 filled text-center">
 		                        <div class="text-center">
@@ -84,7 +86,8 @@
 		                            <h5 class="uppercase">FEATURE #1</h5>
 		                        </div>
 		                        <p>
-		                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&nbsp;</p>
+		                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&nbsp;
+                                </p>
 		                    </div>
 		                    
 		                </div>
@@ -184,7 +187,7 @@
 		                            <h5 class="uppercase">Rule #2</h5>
 		                        </div>
 		                        <p>
-		                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+		                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 		                        </p>
 		                    </div>
 		                    
@@ -210,23 +213,6 @@
 		    </section>
 
       <!--Import jQuery before materialize.js-->
-      		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      		<script type="text/javascript" src="js/materialize.min.js"></script>
-            <script src="js/jquery.min.js"></script>
-        	<script src="js/bootstrap.min.js"></script>
-        	<script src="js/flexslider.min.js"></script>
-        	<script src="js/lightbox.min.js"></script>
-        	<script src="js/masonry.min.js"></script>
-        	<script src="js/twitterfetcher.min.js"></script>
-        	<script src="js/spectragram.min.js"></script>
-        	<script src="js/ytplayer.min.js"></script>
-        	<script src="js/countdown.min.js"></script>
-        	<script src="js/smooth-scroll.min.js"></script>
-        	<script src="js/parallax.js"></script>
-        	<script src="js/scripts.js"></script>
-            <div>
-            <script type=’text/javascript’ src=’http://myblogname.tumblr.com/js’></script>
-			</div>
         </body>
 <footer class="footer-2 w3-light-blue text-center-xs">
 				<div class="container">
